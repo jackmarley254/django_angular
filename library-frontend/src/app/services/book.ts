@@ -14,7 +14,7 @@ export interface Book {
   providedIn: 'root'
 })
 export class BookService {
-  private apiUrl = 'http://localhost:8000/api/books/';  // Ensure this matches your Django endpoint
+  private apiUrl = 'https://django-angular-3qe7.onrender.com/api/books/';  // Ensure this matches your Django endpoint
 
   constructor(private http: HttpClient) {}
 
