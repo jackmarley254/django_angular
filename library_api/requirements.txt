@@ -101,7 +101,6 @@ python-multipart==0.0.9
 python-socketio==5.11.3
 pytz==2024.1
 pywifi==1.1.12
-PyYAML==5.4.1
 referencing==0.33.0
 requests==2.31.0
 rich==13.7.1
