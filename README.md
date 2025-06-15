@@ -28,3 +28,75 @@
   <li>Django REST Framework</li>
   <li>SQLite3 (default)</li>
 </ul>
+
+<h2>🔧 Setup Instructions</h2>
+
+<h3>Backend (Django):</h3>
+<pre>
+cd django-backend
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+</pre>
+
+<h3>Frontend (Angular):</h3>
+<pre>
+cd library-frontend
+npm install
+ng serve
+</pre>
+
+<p>Now visit <a href="http://localhost:4200">http://localhost:4200</a> for the Angular app, and <a href="http://localhost:8000">http://localhost:8000</a> for Django backend.</p>
+
+<h2>🧪 Sample API Payload</h2>
+<pre>
+{
+  "title": "Clean Code",
+  "author": "Robert C. Martin",
+  "published_date": "08-2008",
+  "isbn": "9780132350884"
+}
+</pre>
+
+<h2>📬 API Endpoints</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Endpoint</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GET</td>
+      <td>/api/books/</td>
+      <td>List all books</td>
+    </tr>
+    <tr>
+      <td>POST</td>
+      <td>/api/books/</td>
+      <td>Add a new book</td>
+    </tr>
+    <tr>
+      <td>DELETE</td>
+      <td>/api/books/{id}</td>
+      <td>Delete a book</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>📦 Deployment</h2>
+<ul>
+  <li>Angular: Firebase Hosting, Netlify, Vercel</li>
+  <li>Django: Render, Railway, DigitalOcean, or Heroku (optional adjustments)</li>
+</ul>
+
+<h2>🙌 Author</h2>
+<p>Jack Marley<br/>
+<a href="https://www.linkedin.com/in/jackson-gitahi/">LinkedIn</a> 
+
+<h2>📃 License</h2>
+<p>MIT License — Feel free to use and modify.</p>
