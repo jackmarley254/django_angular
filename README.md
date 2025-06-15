@@ -91,11 +91,11 @@ ng serve
 <h2>📦 Deployment</h2>
 <ul>
   <li>Angular: Firebase Hosting, Netlify, Vercel</li>
-  <li>Django: Render, Railway, DigitalOcean, or Heroku (optional adjustments)</li>
+  <li>Django: Render, Railway, DigitalOcean, or Heroku</li>
 </ul>
 
 <h2>🙌 Author</h2>
-<p>Jack Marley<br/>
+<p>Jackson Gitahi<br/>
 <a href="https://www.linkedin.com/in/jackson-gitahi/">LinkedIn</a> 
 
 <h2>📃 License</h2>
