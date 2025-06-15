@@ -86,7 +86,6 @@ pycodestyle==2.6.0
 pycparser==2.21
 pydantic==2.8.2
 pydantic-settings==2.7.1
-pydantic_core==2.20.1
 Pygments==2.18.0
 PyGObject==3.42.1
 PyJWT==2.8.0
