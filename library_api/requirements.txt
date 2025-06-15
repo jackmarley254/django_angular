@@ -2,6 +2,8 @@ Django>=5.1,<6.0
 djangorestframework
 mysqlclient
 gunicorn
+django-cors-headers
+
 
 # If using FastAPI:
 fastapi
