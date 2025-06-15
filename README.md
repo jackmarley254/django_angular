@@ -48,7 +48,7 @@ npm install
 ng serve
 </pre>
 
-<p>Now visit <a href="http://localhost:4200">http://localhost:4200</a> for the Angular app, and <a href="http://localhost:8000">http://localhost:8000</a> for Django backend.</p>
+<p>Now visit <a href="https://stellular-flan-ffc92e.netlify.app/">http://localhost:4200</a> for the Angular app, and <a href="https://django-angular-3qe7.onrender.com/api/books/">http://localhost:8000</a> for Django backend.</p>
 
 <h2>🧪 Sample API Payload</h2>
 <pre>
